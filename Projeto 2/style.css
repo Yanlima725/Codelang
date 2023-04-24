@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #4b5757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.Form {
+    height: 400px;
+    width: 300px;
+    background-color: #b0b087;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 123px;
+}
+
+.email, .password {
+  display: flex;
+  flex-direction: column;
+}
